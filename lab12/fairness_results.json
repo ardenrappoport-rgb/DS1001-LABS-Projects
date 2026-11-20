@@ -1,0 +1,161 @@
+{
+  "accuracy": 0.7140726006961711,
+  "confusion_matrix_tn_fp_fn_tp": [
+    752,
+    271,
+    304,
+    684
+  ],
+  "overall": {
+    "true positive rate": 0.6923076923076923,
+    "false positive rate": 0.2649071358748778,
+    "selection rate": 0.4748881153654898,
+    "count": 2011.0
+  },
+  "groups": {
+    "country": {
+      "rows": [
+        {
+          "group": false,
+          "true positive rate": 0.620137299771167,
+          "false positive rate": 0.20905923344947736,
+          "selection rate": 0.3867457962413452,
+          "count": 1011.0,
+          "TN": 454,
+          "FP": 120,
+          "FN": 166,
+          "TP": 271
+        },
+        {
+          "group": true,
+          "true positive rate": 0.7495462794918331,
+          "false positive rate": 0.3363028953229399,
+          "selection rate": 0.564,
+          "count": 1000.0,
+          "TN": 298,
+          "FP": 151,
+          "FN": 138,
+          "TP": 413
+        }
+      ],
+      "DPR": 0.6857194968818178,
+      "EOR": 0.621639707409373
+    },
+    "top_lang": {
+      "rows": [
+        {
+          "group": false,
+          "true positive rate": 0.7288135593220338,
+          "false positive rate": 0.3235294117647059,
+          "selection rate": 0.5478424015009381,
+          "count": 533.0,
+          "TN": 161,
+          "FP": 77,
+          "FN": 80,
+          "TP": 215
+        },
+        {
+          "group": true,
+          "true positive rate": 0.6767676767676768,
+          "false positive rate": 0.24713375796178344,
+          "selection rate": 0.4485791610284168,
+          "count": 1478.0,
+          "TN": 591,
+          "FP": 194,
+          "FN": 224,
+          "TP": 469
+        }
+      ],
+      "DPR": 0.8188105918772128,
+      "EOR": 0.7638679791546034
+    },
+    "top_genre": {
+      "rows": [
+        {
+          "group": false,
+          "true positive rate": 0.6491935483870968,
+          "false positive rate": 0.23042505592841164,
+          "selection rate": 0.42063492063492064,
+          "count": 1638.0,
+          "TN": 688,
+          "FP": 206,
+          "FN": 261,
+          "TP": 483
+        },
+        {
+          "group": true,
+          "true positive rate": 0.8237704918032787,
+          "false positive rate": 0.5038759689922481,
+          "selection rate": 0.7131367292225201,
+          "count": 373.0,
+          "TN": 64,
+          "FP": 65,
+          "FN": 43,
+          "TP": 201
+        }
+      ],
+      "DPR": 0.5898376894617496,
+      "EOR": 0.45730511099638615
+    }
+  },
+  "representation": {
+    "country": {
+      "AU": 4880,
+      "US": 2716,
+      "other": 709,
+      "JP": 502,
+      "KR": 358,
+      "FR": 219,
+      "GB": 172,
+      "ES": 151,
+      "IT": 123,
+      "HK": 120,
+      "MX": 102
+    },
+    "top_lang": {
+      " English": 7381,
+      " Japanese": 675,
+      " Spanish": 388,
+      " Korean": 384,
+      " French": 282,
+      " Chinese": 144,
+      " Italian": 142,
+      " Cantonese": 141,
+      " German": 89,
+      "other": 72,
+      " Russian": 65,
+      " Tagalog": 42,
+      " Portuguese": 35,
+      " Thai": 33,
+      " Norwegian": 29,
+      " Polish": 26,
+      " Hindi": 26,
+      " Danish": 23,
+      " Swedish": 22,
+      " Dutch": 21,
+      " Turkish": 21,
+      " Indonesian": 11
+    },
+    "top_genre": {
+      "Drama": 1865,
+      "Action": 1563,
+      "Comedy": 1377,
+      "Horror": 931,
+      "Animation": 885,
+      "Thriller": 577,
+      "Adventure": 571,
+      "Romance": 413,
+      "Crime": 371,
+      "Family": 333,
+      "Science Fiction": 313,
+      "Fantasy": 263,
+      "Documentary": 176,
+      "Mystery": 108,
+      "War": 77,
+      "Music": 76,
+      "Western": 72,
+      "History": 46,
+      "TV Movie": 35
+    }
+  }
+}
